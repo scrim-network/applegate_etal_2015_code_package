@@ -18,7 +18,7 @@ The files in this directory will generate Figure 4 from Applegate et al. (2015, 
 
 To create Figure 4, you'll need a directory 'tas_raw' containing monthly historical and RCP8.5 surface air temperature fields ('tas') spliced into single files for each run.  The necessary historical and RCP8.5 data files may be obtained from the CMIP5 repository currently hosted by the Earth System Grid and then spliced as necessary.  
 
-The spliced files used for this analysis are:
+The spliced files used for this analysis are as follows.  The filenames follow the general convention used by CMIP5 and should be relatively self-explanatory.  The total data volume is on the order of 32 GB.
 
     ./tas_raw/tas_Amon_ACCESS1-0_historical+rcp85_r1i1p1_185001-210012.nc
     ./tas_raw/tas_Amon_ACCESS1-3_historical+rcp85_r1i1p1_185001-210012.nc
@@ -107,10 +107,6 @@ The spliced files used for this analysis are:
     ./tas_raw/tas_Amon_MRI-CGCM3_historical+rcp85_r1i1p1_185001-210012.nc
     ./tas_raw/tas_Amon_NorESM1-ME_historical+rcp85_r1i1p1_185001-210012.nc
     ./tas_raw/tas_Amon_NorESM1-M_historical+rcp85_r1i1p1_185001-210012.nc
-
-    The filenames follow the general convention used by CMIP5 and should be
-    relatively self-explanatory.  The total data volume is on the order of
-    32 GB.
 
 # Instructions
 
