@@ -1,4 +1,8 @@
-# Requirements:
+# Preamble
+
+The files in this directory will generate Figure 4 from Applegate et al. (2015, _Climate Dynamics_).  The files in this directory were written by Robert E. Nicholas.  
+
+# Requirements
 
 - a Unix-like environment with the usual command-line tools (tested on Red Hat Enterprise Linux 6)
 - Bash (tested with version 4.1.2)
@@ -6,12 +10,14 @@
 - the Climate Data Operators (CDO) utility (tested with version 1.7.1)
 - CMIP5 climate model output as described below
 - the files in this directory:
-    * README.md (this file)
-    * 1.calculate_global_mean_and_Greenland_tas.sh
-    * 2.create_multiple_timeseries_and_amplification_plots.R
-    * greenland_mask.nc
+    * `README.md` (this file)
+    * `1.calculate_global_mean_and_Greenland_tas.sh`
+    * `2.create_multiple_timeseries_and_amplification_plots.R`
+    * `greenland_mask.nc`
 
-To create Figure 4, you'll need a directory 'tas_raw' containing monthly historical and RCP8.5 surface air temperature fields ('tas') spliced into single files for each run.  The necessary historical and RCP8.5 data files may be obtained from the CMIP5 repository currently hosted by the Earth System Grid and then spliced as necessary.  The spliced files used for this analysis are:
+To create Figure 4, you'll need a directory 'tas_raw' containing monthly historical and RCP8.5 surface air temperature fields ('tas') spliced into single files for each run.  The necessary historical and RCP8.5 data files may be obtained from the CMIP5 repository currently hosted by the Earth System Grid and then spliced as necessary.  
+
+The spliced files used for this analysis are:
 
     ./tas_raw/tas_Amon_ACCESS1-0_historical+rcp85_r1i1p1_185001-210012.nc
     ./tas_raw/tas_Amon_ACCESS1-3_historical+rcp85_r1i1p1_185001-210012.nc
@@ -105,17 +111,11 @@ To create Figure 4, you'll need a directory 'tas_raw' containing monthly histori
     relatively self-explanatory.  The total data volume is on the order of
     32 GB.
 
+# Instructions
 
-Make '1.calculate_global_mean_and_Greenland_tas.sh' executable and run
-    it. This generates timeseries of yearly Greenland-mean and global-mean
-    surface air temperature for each model run for the period 1970-2099. For
-    those models with extended runs, timeseries are also generated for the
-    period 1970-2299.
+1. Make '1.calculate_global_mean_and_Greenland_tas.sh' executable and run it. This generates timeseries of yearly Greenland-mean and global-mean surface air temperature for each model run for the period 1970-2099. For those models with extended runs, timeseries are also generated for the period 1970-2299.
 
-
-Make '2.create_multiple_timeseries_and_amplification_plots.R' executable
-    and run it.  This calculates the "Greenland amplification" for each
-    model run and generates Figure 4.
+2. Make '2.create_multiple_timeseries_and_amplification_plots.R' executable and run it.  This calculates the "Greenland amplification" for each model run and generates Figure 4.
 
 
  
