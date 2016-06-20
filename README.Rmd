@@ -62,7 +62,7 @@ The particular derived quantities stored in each `.csv` file, and the correspond
 
 Most of the figures were manually modified using Inkscape before publication.  These modifications are *not* reflected by the `.pdf` files in this archive (see the published paper for the final figures).  
 
-* Figure 1: `Fig_1a.pdf` and `Fig_1b.pdf` were combined into a single document.  Annotations were added to the top panel of the combined figure to better show the meaning of the _e_-folding time.  In the lower panel, the string $\Delta T<sub>grl</sub> =$ was added to show that the different colors indicate groups of runs that use the same temperature anomaly.
+* Figure 1: `Fig_1a.pdf` and `Fig_1b.pdf` were combined into a single document.  Annotations were added to the top panel of the combined figure to better show the meaning of the _e_-folding time.  In the lower panel, the string "\Delta T<sub>grl</sub> =" was added to show that the different colors indicate groups of runs that use the same temperature anomaly.
 * Figure 2: The _y_-axis labels on the top panel were changed to conform with standard ways of displaying information on logarithmic axes.  The gray and pink lines and labels were changed to black.
 * Figure 3: The curves and points were labeled according to the forcing temperature anomaly.
 
