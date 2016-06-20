@@ -10,10 +10,11 @@ The files in this directory will generate Figure 4 from Applegate et al. (2015, 
 - the Climate Data Operators (CDO) utility (tested with version 1.7.1)
 - CMIP5 climate model output as described below
 - the files in this directory:
-    * `README.md` (this file)
-    * `1.calculate_global_mean_and_Greenland_tas.sh`
-    * `2.create_multiple_timeseries_and_amplification_plots.R`
-    * `greenland_mask.nc`
+
+    `README.md` (this file)  
+    `1.calculate_global_mean_and_Greenland_tas.sh`  
+    `2.create_multiple_timeseries_and_amplification_plots.R`  
+    `greenland_mask.nc`
 
 To create Figure 4, you'll need a directory 'tas_raw' containing monthly historical and RCP8.5 surface air temperature fields ('tas') spliced into single files for each run.  The necessary historical and RCP8.5 data files may be obtained from the CMIP5 repository currently hosted by the Earth System Grid and then spliced as necessary.  
 
