@@ -1,4 +1,4 @@
-(1) Requirements:
+# Requirements:
     - a Unix-like environment with the usual command-line tools (tested on Red Hat Enterprise Linux 6)
     - Bash (tested with version 4.1.2)
     - R (tested with version 2.15.3) with the 'ncdf' library
@@ -12,12 +12,7 @@
       greenland_mask.nc
 
 
-(2) To create Figure 4, you'll need a directory 'tas_raw' containing monthly
-    historical and RCP8.5 surface air temperature fields ('tas') spliced
-    into single files for each run.  The necessary historical and RCP8.5
-    data files may be obtained from the CMIP5 repository currently hosted by
-    the Earth System Grid and then spliced as necessary.  The spliced files
-    used for this analysis are:
+To create Figure 4, you'll need a directory 'tas_raw' containing monthly historical and RCP8.5 surface air temperature fields ('tas') spliced into single files for each run.  The necessary historical and RCP8.5 data files may be obtained from the CMIP5 repository currently hosted by the Earth System Grid and then spliced as necessary.  The spliced files used for this analysis are:
 
     ./tas_raw/tas_Amon_ACCESS1-0_historical+rcp85_r1i1p1_185001-210012.nc
     ./tas_raw/tas_Amon_ACCESS1-3_historical+rcp85_r1i1p1_185001-210012.nc
@@ -112,14 +107,14 @@
     32 GB.
 
 
-(3) Make '1.calculate_global_mean_and_Greenland_tas.sh' executable and run
+Make '1.calculate_global_mean_and_Greenland_tas.sh' executable and run
     it. This generates timeseries of yearly Greenland-mean and global-mean
     surface air temperature for each model run for the period 1970-2099. For
     those models with extended runs, timeseries are also generated for the
     period 1970-2299.
 
 
-(4) Make '2.create_multiple_timeseries_and_amplification_plots.R' executable
+Make '2.create_multiple_timeseries_and_amplification_plots.R' executable
     and run it.  This calculates the "Greenland amplification" for each
     model run and generates Figure 4.
 
