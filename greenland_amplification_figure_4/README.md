@@ -1,16 +1,15 @@
 # Requirements:
-    - a Unix-like environment with the usual command-line tools (tested on Red Hat Enterprise Linux 6)
-    - Bash (tested with version 4.1.2)
-    - R (tested with version 2.15.3) with the 'ncdf' library
-    - the Climate Data Operators (CDO) utility (tested with version 1.7.1)
-    - CMIP5 climate model output as described below
-    - the files in this directory:
 
-      0.README
-      1.calculate_global_mean_and_Greenland_tas.sh
-      2.create_multiple_timeseries_and_amplification_plots.R
-      greenland_mask.nc
-
+- a Unix-like environment with the usual command-line tools (tested on Red Hat Enterprise Linux 6)
+- Bash (tested with version 4.1.2)
+- R (tested with version 2.15.3) with the 'ncdf' library
+- the Climate Data Operators (CDO) utility (tested with version 1.7.1)
+- CMIP5 climate model output as described below
+- the files in this directory:
+    * README.md (this file)
+    * 1.calculate_global_mean_and_Greenland_tas.sh
+    * 2.create_multiple_timeseries_and_amplification_plots.R
+    * greenland_mask.nc
 
 To create Figure 4, you'll need a directory 'tas_raw' containing monthly historical and RCP8.5 surface air temperature fields ('tas') spliced into single files for each run.  The necessary historical and RCP8.5 data files may be obtained from the CMIP5 repository currently hosted by the Earth System Grid and then spliced as necessary.  The spliced files used for this analysis are:
 
