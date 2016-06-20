@@ -14,7 +14,7 @@ The following pieces of software were used to create Figures 1-3, plus Electroni
 * [RStudio](https://www.rstudio.com) v0.98.1103 -- integrated development environment for R
 * [Inkscape](https://inkscape.org) v0.91 -- figure polishing
 
-# Necessary R packages
+## R packages
 
 We used the following user-developed software libraries (packages) to generate our results.  These packages must be installed using the `install.packages()` command in R before running any of our R code.  Some of these packages depend on other packages; by default, R will install these prerequisite packages automatically.  
 
