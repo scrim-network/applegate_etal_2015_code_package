@@ -66,7 +66,7 @@ Most of the figures were manually modified using Inkscape before publication.  T
 * Figure 2: The _y_-axis labels on the top panel were changed to conform with standard ways of displaying information on logarithmic axes.  The gray and pink lines and labels were changed to black.
 * Figure 3: The curves and points were labeled according to the forcing temperature anomaly.
 
-## Running our R code
+# Running our R code
 
 To reproduce our results, first run `diagnose_derived_quantities.R`.  The other scripts can be run in any order.  
 
