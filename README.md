@@ -56,7 +56,7 @@ The particular derived quantities stored in each `.csv` file, and the correspond
 
 ## `.pdf` files
 
-`README.pdf` is this file.  The numbering of the remaining files is consistent with the figure numbers in the final paper (note that `ESM_Fig_1.pdf` is stored on the journal's Web page).  
+The numbering of the `.pdf` files is consistent with the figure numbers in the final paper.  Note that `ESM_Fig_1.pdf` is stored on the journal's Web page.  
 
 # Manual modifications to the figure files
 
